@@ -1,2 +1,2 @@
 # maze_demo_001
-github pages testing
+https://rkspsm.github.io/maze_demo_001/
