@@ -1,0 +1,79 @@
+html,body {
+  background-color : #91ba68 ;
+}
+
+button {
+  background-color : green ;
+  color : white ;
+}
+
+.menu-title {
+  font-weight : bold ;
+}
+
+.game-fuel {
+  height : 1rem ;
+  background-color : red ;
+  display : inline-block ;
+  width : 10rem ;
+}
+
+.game-fuel div {
+  height : 1rem ;
+  background-color : blue ;
+  display : inline-block ;
+}
+
+.maze-table {
+  font-family : monospace ;
+  cursor : crosshair ;
+  -webkit-user-select : none ;
+  -moz-user-select : none ;
+  -ms-user-select : none ;
+  user-select : none ;
+  border : 10px solid black ;
+}
+
+.maze-table td.location {
+  width : 8px ;
+  height : 8px ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+
+.maze-table.design-phase td.location {
+  width : 20px ;
+  height : 20px ;
+}
+
+.maze-table td.location.loc_empty, .help.loc_empty {
+  background-color : #91ba68 ;
+}
+
+.maze-table td.location.loc_player, .help.loc_player {
+  background-color : #6700a3 ;
+  color : white ;
+}
+
+.maze-table td.location.loc_wall, .help.loc_wall {
+  background-color : black ;
+}
+
+.maze-table td.location.loc_key, .help.loc_key {
+  background-color : green ;
+}
+
+.maze-table td.location.loc_door_open, .help.loc_door_open {
+  background-color : white ;
+}
+
+.maze-table td.location.loc_door_closed, .help.loc_door_closed {
+  background-color : #710000 ;
+  color : white ;
+}
+
+.help {
+  font-family : monospace ;
+  white-space : pre ;
+}
+
